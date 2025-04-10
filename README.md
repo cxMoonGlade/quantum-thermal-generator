@@ -1,2 +1,19 @@
 # quantum-thermal-generator
-This project aims to build a learned quantum thermal state generator capable of producing coarse-grained, structure-consistent mixed states conditioned on physical parameters  𝑇 , 𝐽 , ℎ. It begins with the generation of exact thermal state data as a training baseline, and will progress toward generalizable, circuit-based quantum state synthesis.
+
+This repository builds toward a learned generator for approximate quantum thermal states of Ising-like systems. The goal is to produce coarse but structurally faithful mixed quantum states (e.g., Gibbs-like) that generalize across parameter space, suitable for warm-starting dissipative quantum algorithms or QGSP frameworks.
+
+## 🧱 Current Stage: Data Generation
+
+- Generates full-rank or top-k softmax thermal density matrices from the 1D Ising model
+- Sweeps parameters: temperature (T), coupling (J), and field (h)
+- Outputs `.npy` files containing trace-1, Hermitian \( \rho \)
+
+## 🚧 Upcoming Stages
+
+- Training a QCBM- or VQA-based generator conditioned on (T, J, h)
+- Enforcing modal structure and energy-matching during learning
+- Designing losses for phase-transition stability and generalization
+
+## 🧠 Final Goal
+
+A parameterized, generalizable generator \( f_{\theta}(T, J, h) \mapsto \tilde{\rho} \) that approximates Gibbs states well enough for warm-up or hybrid usage.
