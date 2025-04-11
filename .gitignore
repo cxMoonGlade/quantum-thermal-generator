@@ -1,0 +1,43 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode and PyCharm files
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+env/
+venv/
+*.egg-info/
+
+# Conda environments (optional)
+*.conda
+*.env
+
+# Data outputs
+*.npy
+*.npz
+*.pkl
+*.csv
+*.h5
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# CUDA build artifacts (optional if you build custom extensions)
+*.ptx
+*.cu.o
+
+# git push script
+push.sh
