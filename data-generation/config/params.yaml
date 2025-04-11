@@ -1,0 +1,10 @@
+sweep:
+  n: 8
+  J: [0.5, 0.75, 1.0, 1.25, 1.5]
+  h: [0.0, 0.001, 0.01, 0.05, 0.1]
+  T: [0.5, 1.0, 1.5, 2.0]
+  periodic: true
+  long_range: false
+  disorder: true
+  seed: 42
+  top_k: 20

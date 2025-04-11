@@ -1,0 +1,13 @@
+{
+  "n": 8,
+  "periodic": true,
+  "long_range": false,
+  "disorder": true,
+  "seed": 42,
+  "top_k": 20,
+  "J": 0.5,
+  "h": 0.001,
+  "T": 1.0,
+  "trace": 1.0000000000000004,
+  "entropy": 3.4899216474008923
+}
