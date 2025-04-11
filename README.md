@@ -6,7 +6,7 @@ This repository builds toward a learned generator for approximate quantum therma
 
 - Generates full-rank or top-k softmax thermal density matrices from the 1D Ising model
 - Sweeps parameters: temperature (T), coupling (J), and field (h)
-- Outputs `.npy` files containing trace-1, Hermitian `ρ`
+- Outputs `.npy` and '.json' files containing trace-1, Hermitian `ρ`
 
 ## 🚧 Upcoming Stages
 
