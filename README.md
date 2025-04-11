@@ -6,7 +6,7 @@ This repository builds toward a learned generator for approximate quantum therma
 
 - Generates full-rank or top-k softmax thermal density matrices from the 1D Ising model
 - Sweeps parameters: temperature (T), coupling (J), and field (h)
-- Outputs `.npy` files containing trace-1, Hermitian \( \rho \)
+- Outputs `.npy` files containing trace-1, Hermitian `ρ`
 
 ## 🚧 Upcoming Stages
 
@@ -16,4 +16,4 @@ This repository builds toward a learned generator for approximate quantum therma
 
 ## 🧠 Final Goal
 
-A parameterized, generalizable generator \( f_{\theta}(T, J, h) \mapsto \tilde{\rho} \) that approximates Gibbs states well enough for warm-up or hybrid usage.
+A parameterized, generalizable generator  `f(θ)(T, J, h) |--> ρ` that approximates Gibbs states well enough for warm-up or hybrid usage.
