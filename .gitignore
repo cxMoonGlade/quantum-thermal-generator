@@ -17,18 +17,20 @@ Thumbs.db
 # Python virtual environments
 env/
 venv/
+.venv/
 *.egg-info/
 
 # Conda environments (optional)
 *.conda
 *.env
+.env.*
 
-# Data outputs
-*.npy
-*.npz
-*.pkl
-*.csv
-*.h5
+# Benchmark datasets and saved results are intentionally versioned.
+
+# Local installers and download/log artifacts
+/Miniforge.sh
+/jax
+/=0.42.1
 
 # Logs and debug files
 *.log
